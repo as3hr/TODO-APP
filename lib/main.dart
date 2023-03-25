@@ -11,7 +11,7 @@ void main() async {
   await Hive.initFlutter();
 
   // Open a box
-  var mybox = Hive.openBox('mybox');
+  Hive.openBox('mybox');
 
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
